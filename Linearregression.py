@@ -14,7 +14,8 @@ from sklearn.metrics import mean_squared_error
 from sklearn.datasets.mldata import fetch_mldata
 
 # Read in the data.
-games = pandas.read_csv("Oracle1.csv")
+games = pandas.read_csv("Oracle1.csv") 
+#Can change the file name above
 
 # Print the names of the columns in games.
 print(games.columns)
